@@ -1,6 +1,5 @@
 # A sample Gemfile
 source "https://rubygems.org"
-
+gem 'activerecord', '4.2.11'
+gem 'pg', '~> 0.21.0'
 gem 'pry' # for debugging
-gem 'pg'
-gem 'activerecord', '4.2.6'
